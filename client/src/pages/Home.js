@@ -3,8 +3,8 @@ import React from "react";
 function Home(){
     return (
         <div>
-            <body>
-                hi
+            <body className="bg-tan">
+                Home
             </body>
         </div>
     )
