@@ -17,9 +17,10 @@ module.exports = {
         'chestnut-800': '#86352e',
         'chestnut-900': '#70322c',
         'chestnut-950': '#3c1613',
+        'tan': '#fdf0d1',
       },
       fontFamily: {
-        'gothic': ['Gothic A1', 'sans-serif']
+        'js': ['Josefin Sans', 'sans-serif']
       },
     },
   },
