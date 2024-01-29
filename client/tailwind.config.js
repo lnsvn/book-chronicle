@@ -19,7 +19,7 @@ module.exports = {
         charcoal: "#36454f",
       },
       fontFamily: {
-        js: ["Josefin Sans", "sans-serif"],
+        ws: ["Work Sans", "sans-serif"],
       },
     },
   },

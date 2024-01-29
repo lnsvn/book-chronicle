@@ -16,9 +16,9 @@ function Header() {
 
   return (
     <div>
-      <header className="p-5 font-bold bg-chestnut-800 text-tan flex flex-col">
-        <div className="flex justify-center items-center">
-          <h1 className="font-js text-5xl mr-3">Book Chronicle</h1>
+      <header className="font-ws p-5 font-bold bg-chestnut-800 text-tan flex flex-col">
+        <div className="flex justify-center items-center mb-2">
+          <h1 className="text-5xl mr-3">Book Chronicle</h1>
           <FaBookOpen className="h-14 w-14" />
         </div>
         <ul className="flex justify-evenly">

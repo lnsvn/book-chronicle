@@ -6,18 +6,20 @@ function Home() {
   return (
     <div>
       <body className="bg-tan flex flex-col items-center">
-        <div class="relative flex max-w-2xl rounded overflow-hidden shadow-lg m-8">
+        <a class="relative flex max-w-2xl rounded overflow-hidden shadow-2xl m-8 hover:opacity-85"
+        href="/search">
           <img src={search}></img>
-          <div className="absolute text-5xl text-charcoal top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex bg-tan rounded p-2">
+          <div className="absolute text-5xl text-charcoal top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex bg-tan rounded p-2 font-ws font-bold">
             Search
           </div>
-        </div>
-        <div class="relative flex max-w-2xl rounded overflow-hidden shadow-lg m-8">
+        </a>
+        <a class="relative flex max-w-2xl rounded overflow-hidden shadow-2xl m-8 hover:opacity-85"
+        href="/journal">
           <img src={journal}></img>
-          <div className="absolute text-5xl text-tan top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex bg-charcoal rounded p-2">
+          <div className="absolute text-5xl text-tan top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex bg-charcoal rounded p-2 font-ws font-bold">
             Journal
           </div>
-        </div>
+        </a>
       </body>
     </div>
   );

@@ -1,11 +1,11 @@
 import React from "react";
 
-function Journal(){
+function Journal() {
+  return (
     <div>
-        <body className="bg-tan">
-            Journal
-        </body>
+      <body className="bg-tan font-ws">Journal</body>
     </div>
+  );
 }
 
-export default Journal
+export default Journal;

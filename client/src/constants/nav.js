@@ -7,6 +7,10 @@ const navLinks = [
     title: "Search",
     path: "/search",
   },
+  {
+    title: "Journal",
+    path: "/journal",
+  },
 ];
 
 export default navLinks;

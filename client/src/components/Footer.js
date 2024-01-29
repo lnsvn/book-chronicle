@@ -16,12 +16,12 @@ function Footer() {
 
   return (
     <div>
-      <footer className="bg-tan p-8 flex justify-evenly text-charcoal items-center">
+      <footer className="font-ws bg-tan p-8 flex flex-col text-charcoal">
         <div className="flex">
-          <h1 className="font-js text-xl mr-2">Book Chronicle</h1>
+          <h1 className="text-xl mr-2">Book Chronicle</h1>
           <FaBookOpen className="h-6 w-6" />
         </div>
-        <ul className="flex flex-col items-center">{navData}</ul>
+        <ul className="flex justify-evenly justify-start">{navData}</ul>
       </footer>
     </div>
   );
