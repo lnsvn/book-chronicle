@@ -8,6 +8,10 @@ const navLinks = [
     path: "/search",
   },
   {
+    title: "Library",
+    path: "/library"
+  },
+  {
     title: "Journal",
     path: "/journal",
   },
