@@ -3,7 +3,7 @@ import React from "react";
 function Library() {
   return (
     <div>
-      <body className="bg-tan font-ws">Library</body>
+      <main className="bg-tan font-ws">Library</main>
     </div>
   );
 }
