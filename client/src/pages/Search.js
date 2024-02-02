@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 
 function Search() {
+  const [data, setData] = useState("");
+
+  useEffect(() => {
+    fetch("https://openlibrary.org/search.json?author=george+r+r+martin")
+      .then((res) => res.json())
+      .then((data) => setData(data));
+
+    console.log(data.docs);
+  });
+
   return (
     <div>
       <main className="bg-tan font-ws pt-4 flex flex-col items-center">
