@@ -6,7 +6,7 @@ import { FaBookOpen } from "react-icons/fa6";
 function Header() {
   const navData = navLinks.map((nav) => {
     return (
-      <li>
+      <li key={nav.title}>
         <NavLink to={nav.path} className="hover:underline">
           {nav.title}
         </NavLink>

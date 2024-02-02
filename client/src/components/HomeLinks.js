@@ -4,8 +4,8 @@ import homeLinks from "../constants/home";
 function HomeLinks() {
   const homeData = homeLinks.map((link) => {
     return (
-      <a
-        class="relative flex max-w-2xl rounded overflow-hidden shadow-2xl m-8 hover:opacity-85"
+      <a key={link.title}
+        className="relative flex max-w-2xl rounded overflow-hidden shadow-2xl m-8 hover:opacity-85"
         href={link.href}
       >
         <img src={link.image}></img>
